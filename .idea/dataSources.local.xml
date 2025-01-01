@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="PY-243.21565.199">
+    <data-source name="DATABASE" uuid="c0569178-70f4-44d5-bca4-2274831cc350">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SNOWFLAKE" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping />
+    </data-source>
+    <data-source name="Movement_Data.txt" uuid="3adf299e-2958-46a9-ae6b-5a56ee7698a6">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
