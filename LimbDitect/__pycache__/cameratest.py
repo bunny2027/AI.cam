@@ -1,13 +1,3 @@
-import cv2
-
-cap = cv2.VideoCapture(0)
-while cap.isOpened():
-    ret, frame = cap.read()
-    if not ret:
-        print("Failed to capture frame")
-        break
-    cv2.imshow("Test Camera", frame)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-cap.release()
-cv2.destroyAllWindows()
+version https://git-lfs.github.com/spec/v1
+oid sha256:e44a7bd6f0c5fe4ea847bda0cfa3dc01083ac5c57bc627bf0fe4f46c65293897
+size 301
