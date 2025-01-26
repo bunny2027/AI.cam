@@ -19,7 +19,7 @@ body, html{
 
 .leftsplit {
     width:50%;
-    background-image: url(logo.jpg);
+    background-image: url(vgood.jpg);
     height:100%;
     order: 1;
 }
@@ -29,7 +29,7 @@ body, html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4; /* Light gray for contrast */
+    background-color: #001431; /* Light gray for contrast */
     height: 100%;
     order: 2;
 }
@@ -79,5 +79,5 @@ body, html{
 /* other side*/
 .right {
     flex: 1;
-    background: url('logo.jpg') center center/cover no-repeat; /* Replace with your image path */
+    background: url('vgood.jpg') center center/cover no-repeat; /* Replace with your image path */
 }
