@@ -66,11 +66,14 @@ body, html{
     padding: 10px;
     background-color: #007BFF;
     color: #ffffff;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #000000;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in ;
 }
 .sign_form button:hover {
     background-color: #0056b3;
@@ -78,6 +81,6 @@ body, html{
 
 /* other side*/
 .right {
-    flex: 1;
-    background: url('vgood.jpg') center center/cover no-repeat; /* Replace with your image path */
+    flex: 20;
+    background: url('vgood.jpg') center center/cover no-repeat;
 }
