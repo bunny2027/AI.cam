@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Tracking Control</title>
+</head>
+<body>
+    <h1>Face Tracking Control</h1>
+    <button onclick="startTracking()">Start Face Tracking</button>
+    <button onclick="stopTracking()">Stop Face Tracking</button>
+    <p id="status"></p>
+
+    <script>
+        function startTracking() {
+            fetch('/start-tracking')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('status').innerText = data.status;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function stopTracking() {
+            fetch('/stop-tracking')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('status').innerText = data.status;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
