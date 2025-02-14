@@ -13,5 +13,8 @@
             "database": "Patient",
             "username": "serverbunny"
         }
+    ],
+    "python.analysis.extraPaths": [
+        "./Physical/Motion"
     ]
 }
