@@ -1,0 +1,18 @@
+html, body{ 
+    background-color: aqua;
+
+}
+
+html, head{ 
+    background-color: aquamarine;
+
+}
+
+nav{
+    background-color: rgb(10, 125, 87);
+}
+nav.li{
+    border-radius: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
