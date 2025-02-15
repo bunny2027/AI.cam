@@ -1,0 +1,27 @@
+{
+  "name": "ai.cam",
+  "version": "1.0.0",
+  "description": "This Folder is a abundace of code that is combined to amek a medicxal A.I servise for patients and make databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bunny2027/AI.cam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bunny2027/AI.cam/issues"
+  },
+  "homepage": "https://github.com/bunny2027/AI.cam#readme",
+  "dependencies": {
+    "@mantine/core": "^7.16.3",
+    "@tabler/icons-react": "^3.30.0",
+    "@types/firebase": "^2.4.32",
+    "firebase": "^11.3.1",
+    "react-router-dom": "^7.1.5"
+  }
+}
