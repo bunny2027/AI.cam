@@ -2,4 +2,4 @@ This Folder is a abundace of code that is combined to amek a medicxal A.I servis
 
 
 Reseach sorces
-https://www.nature.com/articles/s43586-022-00147-1 
+(https://pubmed.ncbi.nlm.nih.gov/38124998/)
